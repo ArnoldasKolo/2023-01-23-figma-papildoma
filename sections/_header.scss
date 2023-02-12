@@ -1,0 +1,29 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 55px;
+
+    .nav-list {
+        display: flex;
+        list-style-type: none;
+
+        li {
+            margin-right: 20px;
+            padding: 10px 15px 10px 15px;
+        }
+
+        :nth-child(5) {
+            background-color: #659165;
+            color: white;
+
+            // a{
+            //     padding: 10px 15px 10px 15px;
+            // }
+
+        }
+    }
+
+    .burger-menu {
+        display: none;
+    }
+}

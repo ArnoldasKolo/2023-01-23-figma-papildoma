@@ -1,0 +1,77 @@
+.hero::before {
+    content: url(before-graphs/Ellipse\ 119.png);
+    position: absolute;
+    bottom: -100px;
+    left: -100px;
+
+}
+
+.hero {
+    margin-top: 72px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+
+    .hero-text-wrapper::before {
+        content: url(foto/Ellipse\ 116.png);
+        position: absolute;
+        top: 100px;
+        left: 150px;
+
+    }
+
+    .hero-text-wrapper {
+        width: calc(50% - 100px);
+
+
+
+        .hero-header {
+            font-weight: 500;
+            font-size: 48px;
+            line-height: 116%;
+            margin-bottom: 24px;
+        }
+
+        p {
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 132%;
+            margin-bottom: 32px;
+        }
+
+        .get-started {
+            display: flex;
+            padding: 26px;
+            justify-content: space-between;
+            align-items: center;
+            text-decoration: none;
+            background-color: #659165;
+
+            p {
+                font-weight: 600;
+                font-size: 16px;
+                text-transform: uppercase;
+                text-decoration: none;
+                color: white;
+                margin-bottom: 0px
+            }
+
+            img {
+                width: 22px;
+                height: 15px;
+            }
+        }
+    }
+
+    .hero-img::before {
+        content: url(foto/Ellipse\ 118.png);
+        position: absolute;
+        top: 100px;
+    }
+
+    .hero-img {
+
+        width: calc(50% - 100px);
+    }
+}

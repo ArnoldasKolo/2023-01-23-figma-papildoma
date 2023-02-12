@@ -1,0 +1,107 @@
+footer {
+    background-color: #f0dcc5;
+    margin-top: 180px;
+    padding: 100px 0px 100px 0px;
+
+    .container-footer {
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+
+        display: grid;
+        grid-template-columns: 3fr 2fr 2fr 3fr;
+
+        .footer-section-1 {
+            .socials {
+                img {
+                    margin-right: 16px;
+                }
+            }
+
+        }
+
+        .footer-section-2 {
+            h4 {
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 30px;
+                /* identical to box height, or 150% */
+
+                font-feature-settings: 'liga' off;
+
+                color: #647B64;
+                margin-bottom: 25px;
+            }
+
+            ul {
+                list-style-type: none;
+                padding-left: 0px;
+
+                li {
+                    margin-bottom: 12px;
+                }
+            }
+        }
+
+        .footer-section-3 {
+            h4 {
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 30px;
+                /* identical to box height, or 150% */
+
+                font-feature-settings: 'liga' off;
+
+                color: #647B64;
+                margin-bottom: 25px;
+            }
+
+            ul {
+                list-style-type: none;
+                padding-left: 0px;
+
+                li {
+                    margin-bottom: 12px;
+                }
+            }
+        }
+
+        .footer-section-4 {
+            h4 {
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 30px;
+                /* or 150% */
+
+                display: flex;
+                color: #647B64;
+                text-transform: uppercase;
+            }
+
+            .get-started {
+                margin-top: 28px;
+                display: flex;
+                padding: 21px;
+                justify-content: space-between;
+                align-items: center;
+                text-decoration: none;
+                background-color: #659165;
+
+                p {
+                    font-weight: 600;
+                    font-size: 16px;
+                    text-transform: uppercase;
+                    text-decoration: none;
+                    color: white;
+                    margin-bottom: 0px
+                }
+
+                img {
+                    width: 22px;
+                    height: 15px;
+                }
+            }
+        }
+
+    }
+}

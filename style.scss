@@ -1,0 +1,23 @@
+@use'sections/header';
+@use'sections/hero';
+@use'sections/upsell';
+@use'sections/middle-1';
+@use'sections/upsell-2';
+@use'sections/footer-upsell';
+@use'sections/footer';
+@use'sections/responsive';
+
+body {
+    background: rgb(251, 241, 231);
+    background: linear-gradient(180deg, rgba(251, 241, 231, 1) 0%, rgba(255, 255, 255, 1) 55%);
+
+}
+
+.container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+
+}
+

@@ -1,0 +1,64 @@
+.upsell-2 {
+    margin-top: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .upsell-right {
+        width: calc(60% - 50px);
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .upsell-left {
+        width: calc(40% - 50px);
+
+        .upsell-header-wrapper {
+            .upsell-header-top {
+                color: #f5bf78;
+                text-transform: uppercase;
+                font-weight: 500;
+                font-size: 24px;
+
+            }
+
+            .upsell-header {
+                color: #659165;
+                text-transform: uppercase;
+                font-weight: 500;
+                font-size: 41px;
+            }
+        }
+
+        p {
+            font-weight: 400;
+            font-size: 16px;
+        }
+
+        .get-started {
+            display: flex;
+            padding: 26px;
+            justify-content: space-between;
+            align-items: center;
+            text-decoration: none;
+            background-color: #659165;
+
+            p {
+                font-weight: 600;
+                font-size: 16px;
+                text-transform: uppercase;
+                text-decoration: none;
+                color: white;
+                margin: 0px;
+            }
+
+            img {
+                width: 22px;
+                height: 15px;
+            }
+        }
+    }
+
+}
