@@ -487,6 +487,8 @@ footer .container-footer .footer-section-4 .get-started img {
   }
   header .burger-menu {
     display: inline;
+    height: 28px;
+    width: 28px;
   }
   .hero {
     overflow: hidden;
